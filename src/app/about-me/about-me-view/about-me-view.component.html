@@ -1,0 +1,31 @@
+<div class="main">
+  <h1 class="animated tada"> Whose Chris Shepard? </h1>
+  <span>Hint: It's me.</span>
+  <mat-divider></mat-divider>
+  <div class="wrapper">
+    <div class="circle animated pulse" id="teddy" (mouseenter)="mouseEnter('teddy')" (mouseleave)="mouseLeave('teddy')">
+    </div>
+    <div class="circle animated pulse" id="running" (mouseenter)="mouseEnter('running')"
+      (mouseleave)="mouseLeave('running')"></div>
+    <div class="circle animated pulse" id="backpacking" (mouseenter)="mouseEnter('backpacking')"
+      (mouseleave)="mouseLeave('backpacking')"></div>
+    <div class="circle animated pulse" id="fishing" (mouseenter)="mouseEnter('fishing')"
+      (mouseleave)="mouseLeave('fishing')"></div>
+    <div class="circle animated pulse" id="military" (mouseenter)="mouseEnter('military')"
+      (mouseleave)="mouseLeave('military')"></div>
+    <div class="circle animated pulse" id="warehouse" (mouseenter)="mouseEnter('warehouse')"
+      (mouseleave)="mouseLeave('warehouse')"></div>
+  </div>
+  <section class="wrapper">
+    <mat-card>
+      <span id="placeholder-details" >Hover over a bubble for details</span>
+      <span id="teddy-details" class="hidden">I obviously just wanted an excuse to show a picture of one of my dogs.</span>
+      <span id="running-details" class="hidden">Running is a passion of mine. I find it very therapeutic. The best part is when i'm really trying to push myself further and further, eventually i'll just be yelling at myself in my mind to keep going. Then post-run i'll be laughing because I realize how odd that is. I swear I'm not crazy..</span>
+      <span id="fishing-details" class="hidden">Test two Fishing</span>
+      <span id="backpacking-details" class="hidden">YEEEEEEEEETTTTTTTTTTTT</span>
+      <span id="military-details" class="hidden">I am currently a member of the Army Reserves and have been for over 6 years. My occupational specialty is an Automated Logistical Specialist. It is a huge part of my life and besides any hard skills I have learned throughout the years, those aren't too important. The biggest lesson's learned are those in the true value of failure, the reward of dedication in the precense of obstacles seemingly too large , and the unimaginable power of teamwork.</span>
+      <span id="warehouse-details" class="hidden">I currently work at a medical distribution center full-time while I go to school part-time. I enjoy what I do and believe myself to be very good at what I do. Yet, I don't feel challenged as much as I would like. It's just grunt work on autopilot. It just doesnt quite feed my brain and meet my love of problem solving, I crave those "Ah-ha" moments of learning or mastering something new.</span>
+    </mat-card>
+  </section>
+
+</div>

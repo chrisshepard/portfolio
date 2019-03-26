@@ -22,7 +22,6 @@ function openingAnimation() {
   welcome.classList.add("rollOut");
   var newone = welcome.cloneNode(true);
   welcome.parentNode.replaceChild(newone, welcome);
-  console.log("hi")
   setTimeout(() => {
     newone.parentNode.removeChild(newone);
     contentAnimation();

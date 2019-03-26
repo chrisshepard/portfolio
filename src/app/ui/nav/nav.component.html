@@ -4,8 +4,11 @@
       [mode]="over"
       [opened]="false">
     <mat-toolbar>You found it!</mat-toolbar>
-    <mat-nav-list>
-      <a mat-list-item href="#">some real content</a>
+    <mat-nav-list (click)="drawer.toggle()">
+        <a  mat-list-item 
+        *ngIf="!isHomePage"  
+        routerLink="/">go back to start, do not pass go</a>
+        <a mat-list-item routerLink="/somerealcontent">some real content</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>

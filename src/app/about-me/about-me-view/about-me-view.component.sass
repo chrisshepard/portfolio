@@ -1,0 +1,62 @@
+.main
+  display: flex
+  flex-direction: column
+  text-align: center
+  margin-top: 5vh
+
+
+.wrapper
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 2vh
+  
+
+.circle
+  background: #BADA55
+  border-radius: 50%
+  margin: 10px
+  width: 15vw
+  height: 15vw
+  opacity: 0.4
+
+.circle:hover 
+  opacity: 1
+  
+%image-shared 
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+
+#teddy
+  @extend %image-shared
+  background-image: url("../../../assets/teddy.JPG")
+
+#fishing
+  @extend %image-shared
+  background-image: url("../../../assets/fly-fishing.JPG")
+
+#running
+  @extend %image-shared
+  background-image: url("../../../assets/running.JPG")
+
+#backpacking
+  @extend %image-shared
+  background-image: url("../../../assets/backpacking.JPG")
+  background-position: right
+
+#military
+  @extend %image-shared
+  background-image: url("../../../assets/military.JPG")
+
+#warehouse
+  @extend %image-shared
+  background-image: url("../../../assets/warehouse.JPG")
+  background-position: right
+
+mat-card
+  width: 80vw
+
+.hidden
+  display: none

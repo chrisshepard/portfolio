@@ -10,7 +10,7 @@ const routes: Routes = [
   },
   {
     path: 'somerealcontent',
-    loadChildren: './search/search.module#SearchModule',
+    loadChildren: './about-me/about-me.module#AboutMeModule',
   },
 ];
 
